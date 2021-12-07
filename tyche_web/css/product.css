@@ -46,11 +46,11 @@
   bottom: 10%;
   left: 10px;
   content: "";
-  background-image: url("/tyche_web/assets/images/colonne.png");/*rgba(255, 255, 255, 0.1);  COULEUR DE LECRAN*/ 
+  background-image: url("../assets/images/colonne.png");/*rgba(255, 255, 255, 0.1);  COULEUR DE LECRAN*/ 
   border-radius: 5px;
 }
 .product-device-2::before {
-  background-image: url("/tyche_web/assets/images/fromage.png");/*rgba(255, 255, 255, 0.1);  COULEUR DE LECRAN*/ 
+  background-image: url("../assets/images/fromage.png");/*rgba(255, 255, 255, 0.1);  COULEUR DE LECRAN*/ 
   top: 10%;
   right: 10px;
   bottom: 10%;
@@ -72,6 +72,15 @@
   border: 0; 
   color: rgb(0, 0, 0);  
 }
+
+/*
+ * Carousel
+ */
+
+.bg-mintgreen{
+  background-color: #9de1c2;
+}
+
 /*
  * Extra utilities
  */
@@ -84,3 +93,5 @@
     flex: 1;
   }
 }
+
+
