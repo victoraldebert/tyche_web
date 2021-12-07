@@ -77,9 +77,21 @@
  * Carousel
  */
 
-.bg-mintgreen{
-  background-color: #9de1c2;
+.carousel-item{
+  height: 32rem;
+  background: #777;
+  color: black;
+  background-position: center;
+  background-size: cover;
+  
 }
+
+.container-item{
+  width: 50%;
+  margin: auto;
+  margin-top: 15rem;
+}
+
 
 /*
  * Extra utilities
