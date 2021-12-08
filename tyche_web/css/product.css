@@ -46,11 +46,11 @@
   bottom: 10%;
   left: 10px;
   content: "";
-  background-image: url("/tyche_web/assets/images/colonne.png");/*rgba(255, 255, 255, 0.1);  COULEUR DE LECRAN*/ 
+  background-image: url("../assets/images/colonne.png");/*rgba(255, 255, 255, 0.1);  COULEUR DE LECRAN*/ 
   border-radius: 5px;
 }
 .product-device-2::before {
-  background-image: url("/tyche_web/assets/images/fromage.png");/*rgba(255, 255, 255, 0.1);  COULEUR DE LECRAN*/ 
+  background-image: url("../assets/images/fromage.png");/*rgba(255, 255, 255, 0.1);  COULEUR DE LECRAN*/ 
   top: 10%;
   right: 10px;
   bottom: 10%;
@@ -72,6 +72,42 @@
   border: 0; 
   color: rgb(0, 0, 0);  
 }
+
+/*
+ * Carousel
+ */
+
+.carousel-item{
+  height: 32rem;
+  background: #777;
+  color: black;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.container-item{
+  width: 30%;
+  margin: auto;
+  margin-top: 8rem;
+}
+
+@media (max-width: 768px) {
+  .container-item{
+    width: 50%;
+    margin-top: 10rem;
+  }
+  .container-item h1{
+    font-size: 20px;
+  }
+  .container-item p{
+    font-size: 15px;
+  }
+
+
+}
+
+
 /*
  * Extra utilities
  */
@@ -84,3 +120,5 @@
     flex: 1;
   }
 }
+
+
