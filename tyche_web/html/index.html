@@ -31,6 +31,8 @@
 
   <!-- Custom styles for this template -->
   <link href="../css/product.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../scss/styledeux.css">
 
 </head>
 
@@ -84,7 +86,6 @@
             <p>Indique ici le coût de ton loyer par mois</p>
             <div class="input-group mb-3">
               <input type="number" class="form-control" placeholder="Le coût en €" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-outline" type="button" id="button-addon2">Valider</button>
             </div>
           </div>
         </div>
@@ -94,7 +95,6 @@
             <p>Indique ici le prix de ton assurance habiation par mois</p>
             <div class="input-group mb-3">
               <input type="number" class="form-control" placeholder="Le coût en €" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-outline" type="button" id="button-addon2">Valider</button>
             </div>
           </div>
         </div>
@@ -104,7 +104,6 @@
             <p>Indique ici le prix de ton assurance auto par mois</p>
             <div class="input-group mb-3">
               <input type="number" class="form-control" placeholder="Le coût en €" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-outline" type="button" id="button-addon2">Valider</button>
             </div>
           </div>
         </div>
@@ -114,7 +113,6 @@
             <p>Indique ici ce que tu dépense en énergie par mois</p>
             <div class="input-group mb-3">
               <input type="number" class="form-control" placeholder="Le coût en €" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-outline" type="button" id="button-addon2">Valider</button>
             </div>
           </div>
         </div>
@@ -124,17 +122,15 @@
             <p>Ce sont l'ensemble des dépenses liées au course et aux nécéssaire de vie</p>
             <div class="input-group mb-3">
               <input type="number" class="form-control" placeholder="Le coût en €" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-outline" type="button" id="button-addon2">Valider</button>
             </div>
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('../assets/images/slide_6.png');">
           <div class="container-item">
-            <h1></h1>
-            <p>Indique ici l'ensemble le coût de ton loyer</p>
+            <h1>Téléphone et internet</h1>
+            <p>Correspond au coût de ton abonnement téléphonique et internet</p>
             <div class="input-group mb-3">
               <input type="number" class="form-control" placeholder="Le coût en €" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-outline" type="button" id="button-addon2">Valider</button>
             </div>
           </div>
         </div>
@@ -149,6 +145,36 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <!-----------------------Animation boutton----------------------->
+  
+    <a href="#">
+      <div class="buttons" >
+        <button class="blob-btn" href="#"  >
+          Aller au septième ciel
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+        <br/>
+      </a>
+
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+            <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+          </filter>
+        </defs>
+      </svg>
+
+      <!-----------------------Animation boutton----------------------->
 
     <!--Début du Footer-->
     
